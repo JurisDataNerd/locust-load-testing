@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Locust reports and outputs
+*.html
+*.csv
+load_test_report.html
+load_test_results*.csv
+
+# Environment variables
+.env
+.env.local
